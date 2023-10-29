@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.board{
+    height: 500px;
+    width: 500px;
+    border: 5px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.setSize{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    height: 50px;
+    width: 125px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: lightblue;
+}
+.black{
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 5px;
+    height: 50px;
+    width: 125px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.white{
+    border-color: black;
+    border-radius: 5px;
+    height: 50px;
+    width: 125px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bold;
+}
+.random{
+    color: white;
+    border-color: black;
+    border-radius: 5px;
+    height: 50px;
+    width: 125px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,violet);
+    font-weight: bold;
+}       
+.reset{
+    height: 50px;
+    width: 125px;
+    color: white;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+input{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 20px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
