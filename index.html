@@ -9,12 +9,12 @@
         <div class="etch">
              <div class="board"></div>
             <div class="buttons">
-                <button class="black">Black</button>
-                <button class="white">White</button>
-                <button class="random">Random</button>
-                <button class="reset">Reset</button>
+                <button class="black" onclick="changeColor('black')">Black</button>
+                <button class="white" onclick="changeColor('white')">White</button>
+                <button class="random" onclick="changeColor('random')">Random</button>
+                <button class="reset" onclick="resetBoard()">Reset</button>
             </div>
-            <input type="text" placeholder="Size of Board" value="16">
+            <input type="text" placeholder="Size of Board" value="16" onchange="changeSize(this.value)">
             <button class="setSize">Set Size</button>
         </div>
     </div>
